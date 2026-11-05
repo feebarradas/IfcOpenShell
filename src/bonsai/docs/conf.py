@@ -54,6 +54,14 @@ with open(os.path.join(cwd, "..", "..", "..", "VERSION"), "r") as f:
 # ones.
 extensions = ["sphinx.ext.autodoc", "sphinx.ext.autosectionlabel", "sphinx_copybutton"]
 
+# -- Internationalization ----------------------------------------------------
+
+language = "en"
+
+locale_dirs = ["locale/"]
+gettext_compact = False
+gettext_uuid = True
+
 # Auto add document prefixes to help guarantee uniqueness of automatic section references.
 autosectionlabel_prefix_document = True
 autosectionlabel_maxdepth = 2
