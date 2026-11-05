@@ -65,6 +65,11 @@ msgid ""
 "relevant to multiple disciplines, such as architecture, engineering, and "
 "construction."
 msgstr ""
+"Esses objetos podem conter muitos dados e estabelecer diversas relações. "
+"Entre os exemplos de dados estão sistemas de classificação, materiais "
+"físicos, documentos associados, resultados de simulações e tipos de "
+"construção. Esses dados podem ser relevantes para diferentes disciplinas, "
+"como arquitetura, engenharia e construção."
 
 #: ../../quickstart/introduction_to_bim.rst:22 3913e0a7320147dda367ec208fc67263
 msgid ""
@@ -73,6 +78,11 @@ msgid ""
 "simply a 3D format that you can import or export from and expect "
 "meaningful results."
 msgstr ""
+"Os dados BIM diferem bastante dos dados de um modelo 3D convencional. "
+"Na verdade, a geometria é opcional, e a maior parte dos dados não é "
+"geométrica. Isso significa que o BIM não é simplesmente um formato 3D "
+"que pode ser importado ou exportado esperando-se obter resultados "
+"significativos."
 
 #: ../../quickstart/introduction_to_bim.rst:26 c7e46c86550044b8ba503d3c89be5437
 msgid ""
@@ -82,6 +92,11 @@ msgid ""
 "**BIM** data using **IFC**. Most commonly, **IFC** models will be shared "
 "as a ``.ifc`` file."
 msgstr ""
+"**Industry Foundation Classes**, ou **IFC**, é um padrão internacional para "
+"BIM. O **IFC** é a linguagem digital aberta mais consolidada para representar "
+"o ambiente construído. A maioria dos softwares é capaz de representar dados "
+"BIM usando **IFC**. Em geral, os modelos **IFC** são compartilhados como "
+"arquivos `.ifc`."
 
 #: ../../quickstart/introduction_to_bim.rst:31 9277c34e055c45d8b889dd023d1733d7
 msgid ""
@@ -90,16 +105,22 @@ msgid ""
 "a wall that be associated with a location, like a building storey, or "
 "have an associated cost item in a schedule."
 msgstr ""
+"Por exemplo, o IFC define uma parede como um objeto que pode ter um "
+"nome, um método de construção e quantitativos. O IFC também permite "
+"descrever a associação dessa parede a uma localização, como um pavimento "
+"de uma edificação, ou a um item de custo em uma planilha."
 
 #: ../../quickstart/introduction_to_bim.rst:36 9cfc2a18551f4cbaafdbe1a7da742439
 msgid ""
 "When you use Bonsai, you will be able to view and create **BIM** objects "
 "and relationships using the **IFC** standard."
 msgstr ""
+"Ao utilizar o Bonsai, você poderá visualizar e criar objetos e "
+"relacionamentos BIM utilizando o padrão IFC."
 
 #: ../../quickstart/introduction_to_bim.rst:40 af2bb2b13769459e92fdd092421e305c
 msgid "Things you can do"
-msgstr ""
+msgstr "O que você pode fazer"
 
 #: ../../quickstart/introduction_to_bim.rst:42 a43f76e07f3544bda91559097c75e495
 msgid ""
@@ -109,76 +130,82 @@ msgid ""
 "scheduling tools, and simulation applications. While not an exhaustive "
 "list, some of the key things you can do with Bonsai include:"
 msgstr ""
+"O Bonsai foi desenvolvido para ser uma plataforma abrangente e "
+"verdadeiramente nativa de autoria BIM. Seus recursos contemplam uma "
+"ampla variedade de tarefas e fluxos de trabalho normalmente encontrados "
+"em softwares BIM e CAD, programas de orçamento, ferramentas de "
+"planejamento e aplicações de simulação. Embora esta não seja uma lista "
+"exaustiva, algumas das principais atividades que podem ser realizadas "
+"com o Bonsai incluem:"
 
 #: ../../quickstart/introduction_to_bim.rst:48 26f9c194361c4d1f81eb1050e4093e28
 msgid ""
 "View and explore IFC models, including spaces, properties, and "
 "relationships"
-msgstr ""
+msgstr "Visualizar e explorar modelos IFC, incluindo espaços, propriedades e relacionamentos"
 
 #: ../../quickstart/introduction_to_bim.rst:49 c662d003b8264aafaf8b436028ab7eec
 msgid ""
 "Edit and extract attributes, properties, and metadata directly from IFC "
 "data"
-msgstr ""
+msgstr "Editar e extrair atributos, propriedades e metadados diretamente dos dados IFC"
 
 #: ../../quickstart/introduction_to_bim.rst:50 2cf8d4f5d89e4ab89707d791364a724c
 msgid ""
 "Move, rotate, and modify the geometry of objects while preserving IFC "
 "semantics"
-msgstr ""
+msgstr "Mover, girar e modificar a geometria dos objetos, preservando a semântica IFC"
 
 #: ../../quickstart/introduction_to_bim.rst:51 f12163e9fd0c414da6d26d425036084e
 msgid ""
 "Create new objects using predefined library elements or custom parametric"
 " types"
-msgstr ""
+msgstr "Criar novos objetos a partir de elementos predefinidos de biblioteca ou de tipos paramétricos personalizados"
 
 #: ../../quickstart/introduction_to_bim.rst:52 2c58299a9e664cf78a5cdff4b0bd729b
 msgid ""
 "Manage classification systems, document references, and link to external "
 "libraries"
-msgstr ""
+msgstr "Gerenciar sistemas de classificação, referências a documentos e vínculos com bibliotecas externas"
 
 #: ../../quickstart/introduction_to_bim.rst:53 5a7ba0a68cb743b2a37ee2ed3f36415c
 msgid ""
 "Generate 2D drawing views like plans, sections, and elevations with "
 "customizable annotations"
-msgstr ""
+msgstr "Gerar vistas de desenho 2D, como plantas, cortes e elevações, com anotações personalizáveis"
 
 #: ../../quickstart/introduction_to_bim.rst:54 0e14a530f65346c6803471363f76fa74
 msgid ""
 "Investigate and edit structural analysis models with support for various "
 "steel profiles"
-msgstr ""
+msgstr "Examinar e editar modelos de análise estrutural, com suporte a diversos perfis de aço"
 
 #: ../../quickstart/introduction_to_bim.rst:55 9ea0719f4ca449df855e0626f337be73
 msgid ""
 "Model and manage complex distribution systems like HVAC, plumbing, and "
 "electrical (MEP)"
-msgstr ""
+msgstr "Modelar e gerenciar sistemas prediais complexos, como climatização, instalações hidráulicas e elétricas (MEP)"
 
 #: ../../quickstart/introduction_to_bim.rst:56 aac22b26a9ce416ba5091849caaa932d
 msgid ""
 "Create construction schedules, perform critical path analysis, and "
 "generate sequence animations"
-msgstr ""
+msgstr "Criar cronogramas de construção, realizar análises de caminho crítico e gerar animações de sequenciamento"
 
 #: ../../quickstart/introduction_to_bim.rst:57 bbce0aa6ca0e44b297df9e9bfdc25751
 msgid ""
 "Derive quantities from model elements and create cost schedules with "
 "formulas"
-msgstr ""
+msgstr "Extrair quantitativos dos elementos do modelo e elaborar planilhas de custos com fórmulas"
 
 #: ../../quickstart/introduction_to_bim.rst:58 11a6e9ad04814e52a9bb216aad5e9370
 msgid ""
 "Perform clash detection and coordinate models, managing issues across "
 "disciplines"
-msgstr ""
+msgstr "Realizar detecção de interferências e coordenação de modelos, gerenciando ocorrências entre as diferentes disciplinas"
 
 #: ../../quickstart/introduction_to_bim.rst:59 991687b9675648379d6051848f2150ba
 msgid ""
 "Integrate non-geometric data like costing, scheduling, and asset "
 "management"
-msgstr ""
-
+msgstr "Integrar dados não geométricos, como informações de custos, cronogramas e gestão de ativos"
